@@ -78,6 +78,21 @@ img {
     margin-top: 0 6px rgba;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
+
+.hobbies{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0%;
+}
+
+.hobbies li{
+    background-color:aliceblue;
+    color:#222222;
+    padding:1px ;
+
+}
     form{
     display: flex;
     flex-direction: column;
@@ -98,4 +113,11 @@ button{
 }
 button:hover {
     background-color:rgb(99, 128, 192);
+}
+footer{
+    background-color:blue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 100%3;
 }
